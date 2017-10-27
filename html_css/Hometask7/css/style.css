@@ -1,0 +1,225 @@
+
+
+body{
+  background: grey;
+}
+a {
+  text-decoration: none;
+}
+.wrapped{ 
+	height: 450px;
+	width: 940px;
+	margin: auto;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.part1{
+	width: 400px;
+	height: 450px;
+	background: url(../img/backgr.png);
+	float: left;
+	position: relative;
+}
+.part2{
+	width: 540px;
+	height: 450px;
+	background: #fff;
+	float: right;
+  position: relative;
+}
+.close{
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  background: url(../img/Clos.png);
+  top: 20px;
+  right: 20px;
+}
+.inside{
+	width: 270px;
+    height: 269px;
+    background: #fff;
+    border-radius: 7px;
+    margin: 90px auto;
+
+}
+.bl3{
+/*   margin: auto;*/
+}
+.mon{
+	font-family: GothamPB;
+	font-size: 16px;
+	color: rgb(87, 91, 102);
+	text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  line-height: 16px;
+  
+}
+.prc{
+   font-size: 52px;
+   font-family: GothamP;
+   color: rgb(154, 175, 78);
+   text-align: center;
+   margin: 40px auto;
+   margin-bottom: 0;
+}
+.lprice{
+   font-size: 14px;
+   font-family: GothamP;
+   color: rgb(138, 142, 153);
+   text-align: center;
+}
+.close{
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  background: url(../img/Clos.png);
+  top: 20px;
+  right: 20px;
+}
+.img{
+  width: 52px;
+  height: 59px;
+  position: absolute;
+  background: url(..//img/wreath.png);
+  top: 71px;
+  right: 57px;
+  bottom: 230px;
+  left: 291px;
+  z-index: 1;
+}
+.descr{
+  width:420px;
+  height: 89px;
+  font-size: 16px;
+  font-family: GothamP;
+  color: rgb(87, 91, 102);
+ /* margin: auto;*/
+  margin-top: 58px;
+  margin-left: 63px;
+  line-height: 24px;
+  text-align: left;
+  
+}
+.bold{
+  font-family: GothamPM;
+}
+.pay_m{
+  margin-top: 33px;
+  margin-left: 63px;
+  margin-right: 20px;
+  font-size: 14px;
+  font-family: GothamPM;
+  text-transform: uppercase;
+  color: #c2c4cc;
+}
+
+.privat24{
+  position: absolute;
+  top: 177px;
+  left: 232px;
+  right: 290px;
+  bottom: 255px;
+  width: 18px;
+  height: 18px;
+  margin-right: 15px;
+  background: url(../img/privat.png);
+}
+.privat24:hover {
+  background: url(../img/privat_h.png);
+  } 
+.visa{
+  position: absolute;
+  top: 180px;
+  left: 265px;
+  right: 237px;
+  bottom: 258px;
+  width: 38px;
+  height: 12px;
+  margin-right: 15px;
+  background: url(../img/visa.png);
+}
+.visa:hover {
+  background: url(../img/visa_h.png);  
+}
+.mastercard{
+  position: absolute;
+  top: 173px;
+  left: 319px;
+  right: 178px;
+  bottom: 251px;
+  width: 43px;
+  height: 26px;
+  background: url(../img/Mastercard.png);
+}
+.mastercard:hover {
+  background: url(../img/mastercard_h.png);  
+}
+.butt{
+  width: 276px;
+  height: 54px;
+  border-radius: 27px;
+  background: #aac65a;
+  margin-left: 63px;
+  position: relative;
+  margin-top: 44px;
+}
+.butt a{
+  color: #fff;
+}
+.descrip{
+  font-size:16px;
+  font-family: GothamPM;
+  color: #fff;
+  position: absolute;
+  left: 50px;
+  top: 2px;
+}
+.subm{
+  margin-top:40px;
+  margin-right: 70px;
+  margin-left: 63px;
+  margin-bottom: -5px;
+  font-family: GothamP;
+  font-size: 16px;
+  color: rgb(87, 91, 102);
+}
+.subm_appl a{
+  color: #8fbee6;
+  text-decoration: underline;
+}
+.appl{
+  width: 198px;
+  height: 46px;
+  background: #fac746;
+  border-radius: 27px;
+  margin-top: 10px;
+  margin-left: 63px;
+  position: relative;
+}
+.appl a{
+    color: #876c27;
+}
+.applic{
+  font-size: 14px;
+  font-family: GothamPM;
+  color: #876c27;
+  position: absolute;
+  left: 39px;
+  top: 0;
+}
+
+.Прямоугольник__скругл__углы_1 {
+  background-image: -moz-linear-gradient( 90deg, rgb(111,169,61) 0%, rgb(139,197,59) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(111,169,61) 0%, rgb(139,197,59) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(111,169,61) 0%, rgb(139,197,59) 100%);
+  position: absolute;
+  left: 701px;
+  top: 725px;
+  width: 198px;
+  height: 46px;
+  z-index: 23;
+}
+
+

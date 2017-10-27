@@ -1,0 +1,16 @@
+@font-face {
+	font-family: GothamP;
+	src: local("GothamPro"), url("../fonts/GothaProReg.otf");
+}
+@font-face {
+	font-family: GothamPM;
+	src: local("GothamPro"), url("../fonts/GothaProMed.otf");
+}
+@font-face {
+	font-family: GothamPB;
+	src: local("GothamPro"), url("../fonts/GothaProBla.otf");
+}
+@font-face {
+	font-family: GothamPL;
+	src: local("GothamPro"), url("../fonts/GothaProLig.otf");
+}
