@@ -1,0 +1,34 @@
+<!-- 02.10.17 Roman Hvozdov -->
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		<title>Запись на курсы</title>
+			<meta charset="utf-8">
+			
+	</head>
+	<body>
+		<h3>Запись на курсы</h3>
+		<hr>
+		<form action="" method="POST">
+		
+			<p>Имя:<br>
+				<input  type="text"  required>
+			</p>
+			<p>Язык программирования:<br>
+				<input  type="radio" name="language" value="l1">C++<br>
+				<input  type="radio" name="language" value="l2" checked >PHP<br> 
+				<input  type="radio" name="language" value="l3">Python<br>
+			</p>
+			<p>Дополнительная информация:<br>
+    			<textarea rows="5" cols="30" type="addinf" placeholder="Есть опыт программирования на C++"></textarea><br>
+			</p>
+			<p>Секретное слово:<br>
+				<input type="password" value="12345678" required>
+			</p>
+			<p>
+				<input type="submit" name="submit" value="Отправить">
+				<input type="reset" name="reset" value="Очистить">
+			</p><hr>	
+		</form>	
+	</body>
+</html>

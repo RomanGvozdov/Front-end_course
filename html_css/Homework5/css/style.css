@@ -1,0 +1,29 @@
+div {
+	width:400px;
+	height:500px;
+	background-image: url(..//img/Sprite.png)
+}
+.sprite1{
+	background-position: 0 0;
+}
+.sprite2{
+	background-position: 0 500px;
+}
+.sprite3{
+	background-position: -400px 0;
+}
+.sprite4{
+	background-position: -400px 500px;
+}
+.sprite5{
+	background-position: -800px 0;
+}
+.sprite6{
+	background-position: -800px 500px;
+}
+.sprite7{
+	background-position: -1200px 0;
+}
+.sprite8{
+	background-position: -1200px 500px;
+}

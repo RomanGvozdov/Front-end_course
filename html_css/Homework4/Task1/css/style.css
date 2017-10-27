@@ -1,0 +1,9 @@
+body{
+	background: url(../img/img.jpg);
+}
+div{
+	width: 320px;
+	height: 220px;
+	background: url(../img/img1.jpg);
+	margin: 58px auto;
+}
