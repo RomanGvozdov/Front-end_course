@@ -58,9 +58,10 @@ a {
 }
 .prc{
    font-size: 52px;
-   font-family: GothamP;
+   font-family: GothamPL;
    color: rgb(154, 175, 78);
    text-align: center;
+   letter-spacing: 2px;
    margin: 40px auto;
    margin-bottom: 0;
 }
@@ -69,6 +70,7 @@ a {
    font-family: GothamP;
    color: rgb(138, 142, 153);
    text-align: center;
+   margin-top: 5px;
 }
 .close{
   width: 19px;
@@ -96,7 +98,7 @@ a {
   font-family: GothamP;
   color: rgb(87, 91, 102);
  /* margin: auto;*/
-  margin-top: 58px;
+  margin-top: 54px;
   margin-left: 63px;
   line-height: 24px;
   text-align: left;
@@ -106,7 +108,7 @@ a {
   font-family: GothamPM;
 }
 .pay_m{
-  margin-top: 33px;
+  margin-top: 35px;
   margin-left: 63px;
   margin-right: 20px;
   font-size: 14px;
@@ -173,8 +175,8 @@ a {
   font-family: GothamPM;
   color: #fff;
   position: absolute;
-  left: 50px;
-  top: 2px;
+  left: 49px;
+  top: 4px;
 }
 .subm{
   margin-top:40px;
@@ -183,6 +185,7 @@ a {
   margin-bottom: -5px;
   font-family: GothamP;
   font-size: 16px;
+  line-height: 20px;
   color: rgb(87, 91, 102);
 }
 .subm_appl a{
@@ -206,20 +209,8 @@ a {
   font-family: GothamPM;
   color: #876c27;
   position: absolute;
-  left: 39px;
-  top: 0;
-}
-
-.Прямоугольник__скругл__углы_1 {
-  background-image: -moz-linear-gradient( 90deg, rgb(111,169,61) 0%, rgb(139,197,59) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(111,169,61) 0%, rgb(139,197,59) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(111,169,61) 0%, rgb(139,197,59) 100%);
-  position: absolute;
-  left: 701px;
-  top: 725px;
-  width: 198px;
-  height: 46px;
-  z-index: 23;
+  left: 38px;
+  top: 2px;
 }
 
 
