@@ -1,15 +1,16 @@
 
-div {
-	margin: 0 auto;
-	color: #fff;
-}
+
 .section1 {
 	width: 100%;
-	background: url(../img/background1.png) no-repeat;
-	overflow: hidden;
+	background: url(../img/background1.png);
 }
 .wrapper {
-	width: 1173px;
+	width: 1170px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.section1 div{
+	color: #fff;
 }
 .toptext {
 	padding-top: 87px;
@@ -49,6 +50,92 @@ a.button{
 	background: rgb(255, 22, 30);
 }
 .red_button{
-margin: 84px 112px 320px 590px;  /* margin 320 px прописан, чтоб отобразить все изобр*/
+margin: 84px 112px 344px 590px;  /* margin 320 px прописан, чтоб отобразить все изобр*/
+}
+.section2{
+	background: #fff;
+}
+.toptext_sec2 h2 {
+	font: 48px GothamPM;
+	color: #000;
+	text-align: center;
+	margin-top: 65px;
+	line-height: 63px;
+}
+.table{
+	padding-top: 25px;
 }
 
+.text{
+	font:20px GothamPL;
+	color: #000;
+	text-align: center;
+	line-height: 30px;
+}
+span{
+	font-family:GothamPM ;
+}
+ul{
+	list-style: none;
+	padding: initial;
+}
+li {
+	text-align: center;
+	width: 262px;
+	float: left;
+	padding-left: 30px;
+}
+.otstup-1{
+	padding-left: 15px;
+}
+.otstup-2{
+	padding-right: 15px;
+}
+
+div[class|="icon"] {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+ }
+.icon-1{
+	background: url(../img/sprite.png) 0px 0px;
+}
+.icon-2{
+	background: url(../img/sprite.png) -82px 0px;
+}
+.icon-3{
+	background: url(../img/sprite.png) -157px 0px;
+}
+.icon-4{
+	background: url(../img/sprite.png) -238px -7px;
+}
+.row2{
+	padding-top: 60px;
+	display: inline-block;
+}
+.icon-5{
+	background: url(../img/sprite.png) 0px -80px;
+}
+.icon-6{
+	background: url(../img/sprite.png) -82px -81px;
+}
+.icon-7{
+	background: url(../img/sprite.png) -157px -81px;
+}
+.icon-8{
+	background: url(../img/sprite.png) -238px -79px;
+}
+.row3{
+	padding-top: 60px;
+	display: inline-block;
+	padding-bottom: 74px;
+}
+.icon-9{
+	background: url(../img/sprite.png) -81px -164px;
+}
+.icon-10{
+	background: url(../img/sprite.png) -166px -166px;
+}
+.row3 .otstup-1, .row3 .otstup-2{
+	visibility: hidden;
+}
