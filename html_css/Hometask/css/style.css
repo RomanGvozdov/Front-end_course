@@ -1,0 +1,54 @@
+
+div {
+	margin: 0 auto;
+	color: #fff;
+}
+.section1 {
+	width: 100%;
+	background: url(../img/background1.png) no-repeat;
+	overflow: hidden;
+}
+.wrapper {
+	width: 1173px;
+}
+.toptext {
+	padding-top: 87px;
+	text-align: center;
+}
+.toptext h1{
+	font-family: GothamBL;
+	font-size: 60px;
+	margin: 0;
+}
+.toptext p {
+	font-family: GothamPL;
+	font-size: 30px;
+	margin-top: 10px;
+}
+.centertext{
+	text-align: left;
+	margin: 128px 112px 0 590px;
+}
+.centertext h2 {
+	font-family: GothamPM;
+	font-size: 42px;
+	color: #B5F1FE;
+}
+.centertext p {
+	font: 30px GothamP;
+	margin-top: 56px;
+	line-height: 49px;
+}
+a.button{
+	font: 24px GothamPB;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	padding: 27px 32px;
+	border-radius: 5px;
+	background: rgb(255, 22, 30);
+}
+.red_button{
+margin: 84px 112px 320px 590px;  /* margin 320 px прописан, чтоб отобразить все изобр*/
+}
+
