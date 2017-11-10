@@ -1,0 +1,323 @@
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+p{
+	font: 300 28px 'Poppins', sans-serif;
+}
+.clearfix::after {
+     display: block;
+     content: "";
+     clear: both;
+}
+div{
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+	margin: 0 0;
+	padding: 0;
+}
+li{
+	font:300 14px 'Poppins', sans-serif;
+}
+.text-center{
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+.button1{      /*buttons Purchase Now (x2) and Order Now*/
+ 	font: 400 14px 'Poppins', sans-serif;
+	color: #fff;
+	background: #f96257;
+	padding: 17px 33px 16px 33px;
+	border-radius: 3px;
+}
+.button2{
+		font: 300 22px 'Poppins', sans-serif;
+		color: #fff;
+	} 
+span{
+	color: #f96257;
+}
+/*styles for secton 1(header)  */
+#header{
+	background: url(../img/section1.png);
+	width: 100%;
+	overflow: hidden;
+	font: 300 14px 'Poppins', sans-serif;
+}
+.navigation{
+	padding-top: 15px;
+}
+.logo{
+	width: 164px;
+	height: 50px;
+	background: url(../img/Logo.png);
+	float: left;
+}
+.nav_text ul {
+	float: right;
+}
+.nav_text li {
+	float: left;
+	margin: 0 18px;
+}
+.icon{
+	color: #f96257;
+}
+#header .butt{
+	margin: 0 auto;
+	padding-top: 642px;
+	padding-bottom: 275px;
+}
+#header .button1{
+	color: #f96257;
+	background: #fff;
+}
+
+/*end styles for section one (header)*/
+
+/*styles for section two (useful area)*/
+
+#useful_area {
+	background: #fff;
+	width: 100%;
+}
+
+.content{
+	padding: 120px 70px 112px 70px;
+}
+.text{
+	padding-bottom: 50px;
+}
+.Eye{
+	background: #d8da77;
+	padding: 29px 88px 29px 89px;
+	border-radius: 3px;
+
+}
+.Boosts{
+	background: #a7ad27;
+	padding: 28px 45px 29px 47px;
+	border-radius: 3px;
+
+}
+.Prevents{
+	background: #f96257;
+	padding: 29px 45px 29px 47px;
+	border-radius: 3px;
+}
+.buttons{
+	margin: 0 auto;
+	padding-right: 68px;
+	padding-left:68px;
+}
+.button{
+	float: left;
+	margin: 0 10px ;
+}
+/*end styles for section two (useful area)*/
+
+/*styles for call_to_action section*/
+#calltocation{
+	background: #fff;
+	width: 100%;
+}
+.img {
+	width: 843px;
+	height: 555px;
+	background: url(../img/Strawberry.png);
+	margin: 0 auto;
+}
+.action_block{
+	background: #f7f7f7;
+}
+.action_block p{
+	font-size: 36px;
+}
+.action_text{
+	padding-top: 120px;
+	width: 770px;
+	margin: 0 auto
+}
+.but{
+	padding-bottom: 120px;
+}
+/*end of call_to_action*/
+
+/*styles for contains section*/
+#contains{
+	background: #fff;
+	width: 100%;
+}
+.strawberry{
+	padding: 116px 170px 41px 170px;
+}
+.imaga{
+	width: 490px;
+	height: 648px;
+	background: url(../img/prof.png);
+	float: right;
+}
+.profit{
+	padding-top: 290px;
+	position: relative;
+}
+div[class|="line"] {
+  background-color: rgb(231, 231, 231);
+  position: absolute;
+  width: 200px;
+  height: 5px;
+  z-index: 1;
+}
+.profit p {
+	font: 400 22px 'Poppins', sans-serif;
+	padding-bottom: 75px;
+	margin: 0 0;
+}
+.text1{
+	padding-left: 118px;
+}
+.text2{
+	padding-left: 52px;
+}
+.line-1{
+	top: 305px;
+    left: 240px;
+}
+.line-2{
+	top: 414px;
+    left: 195px;
+}
+.line-3{
+	top: 523px;
+    left: 279px
+}
+.cont_text p{
+	font-size: 36px;
+	margin: 0 0;
+}
+.cont_text{
+	padding-bottom: 120px;
+}
+/*end of styles for contains*/
+
+/*start styles for section benefits*/
+#benefits{
+	background: #fff;
+	width: 100%
+}
+.health_img{
+	background: url(../img/health.png);
+	width: 568px;
+	height: 703px;
+	float: right;
+}
+.health_benefits p {
+	font-size: 36px;
+	margin: 0 0;
+	padding-top: 250px;
+	padding-bottom: 22px;
+}
+.health_benefits li{
+	padding-bottom: 9px;
+}
+
+#red_content{
+
+	width: 100%;
+	background: #fff;
+}
+.straw{
+	background: url(../img/Rich.png);
+	width: 1170px;
+	height: 359px;
+}
+.straw_text{
+	padding-top: 122px;
+	color: #fff;
+	width: 1000px;
+	margin: 0 auto;
+
+}
+/*end styles*/
+
+/*start section order*/
+#order{
+	width: 100%;
+	background: #fff;
+}
+.order_img{
+	background: url(../img/klubn.png);
+	margin: 0 auto;
+	margin-top: 75px;
+	width: 713px;
+	height: 475px;
+}
+.order_text p{
+	font-size: 36px;
+	color: #000;
+	margin: 0 0;
+}
+#order .button1{
+	padding: 17px 45px 16px 46px;
+}
+#order .butt{
+	padding-top: 47px;
+	padding-bottom: 106px;
+}
+/*end section order*/
+
+/*start styles for footer*/
+#footer{
+	background: #f7f7f7;
+	width: 100%;
+}
+.top{
+	padding-top: 30px;
+}
+.top p {
+	float: left;
+	font: 400 14px 'Poppins', sans-serif ;
+	margin: 0 0:;
+}
+.top ul{
+	float: right;
+}
+.top li{
+	float: left;
+	padding-left: 17px;
+}
+.fa-map-marker{
+	margin-right: 7px;
+}
+.fa-phone{
+	margin-right: 7px;
+}
+.first{
+	margin-right: 73px;
+}
+.rights{
+	padding-top: 0;
+	padding-bottom: 52px;
+}
+
+
+.rights p, a{
+	font: 400 12px 'Poppins', sans-serif;
+
+}
+.right_text{
+	float: left;
+}
+.mail{
+	float: right;
+}
+.right_text p{
+	float: left;
+	margin: 0 0;
+}
+/*end styles for footer*/
