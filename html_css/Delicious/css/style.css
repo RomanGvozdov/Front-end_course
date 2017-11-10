@@ -44,7 +44,7 @@ span{
 }
 /*styles for secton 1(header)  */
 #header{
-	background: url(../img/section1.png);
+	background: url(../img/section1.png) no-repeat center center;
 	width: 100%;
 	overflow: hidden;
 	font: 300 14px 'Poppins', sans-serif;
