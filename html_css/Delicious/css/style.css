@@ -53,13 +53,11 @@ span{
 	padding-top: 15px;
 }
 .logo{
-	width: 164px;
-	height: 50px;
-	background: url(../img/Logo.png);
 	float: left;
 }
 .nav_text ul {
 	float: right;
+	padding-top: 18px;
 }
 .nav_text li {
 	float: left;
@@ -121,7 +119,7 @@ span{
 }
 /*end styles for section two (useful area)*/
 
-/*styles for call_to_action section*/
+/*styles for call_to_action*/
 #calltocation{
 	background: #fff;
 	width: 100%;
@@ -148,7 +146,7 @@ span{
 }
 /*end of call_to_action*/
 
-/*styles for contains section*/
+/*styles for contains*/
 #contains{
 	background: #fff;
 	width: 100%;
@@ -166,12 +164,16 @@ span{
 	padding-top: 290px;
 	position: relative;
 }
-div[class|="line"] {
-  background-color: rgb(231, 231, 231);
-  position: absolute;
-  width: 200px;
-  height: 5px;
-  z-index: 1;
+.line:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    height: 5px;
+    background: rgb(231, 231, 231);
+    border-width: 0 10px;
+    margin-right: -100%;
+    margin-left: 22px;
 }
 .profit p {
 	font: 400 22px 'Poppins', sans-serif;
@@ -205,7 +207,6 @@ div[class|="line"] {
 }
 /*end of styles for contains*/
 
-/*start styles for section benefits*/
 #benefits{
 	background: #fff;
 	width: 100%
@@ -225,7 +226,9 @@ div[class|="line"] {
 .health_benefits li{
 	padding-bottom: 9px;
 }
-
+.health_benefits i{
+	margin-right: 7px;
+}
 #red_content{
 
 	width: 100%;
@@ -234,28 +237,27 @@ div[class|="line"] {
 .straw{
 	background: url(../img/Rich.png);
 	width: 1170px;
-	height: 359px;
+	margin-top: 100px;
 }
-.straw_text{
-	padding-top: 122px;
-	color: #fff;
-	width: 1000px;
-	margin: 0 auto;
-
+.straw_text {
+    padding-top: 83px;
+    padding-bottom: 89px;
+    color: #fff;
+    width: 1000px;
+    margin: 0 auto;
 }
-/*end styles*/
 
-/*start section order*/
 #order{
 	width: 100%;
 	background: #fff;
 }
 .order_img{
-	background: url(../img/klubn.png);
-	margin: 0 auto;
-	margin-top: 75px;
-	width: 713px;
-	height: 475px;
+	padding-top: 75px;
+	padding-left: 230px;
+    padding-right: 230px;
+}
+.order_text{
+	margin-top: -28px
 }
 .order_text p{
 	font-size: 36px;
@@ -266,12 +268,10 @@ div[class|="line"] {
 	padding: 17px 45px 16px 46px;
 }
 #order .butt{
-	padding-top: 47px;
+	padding-top: 33px;
 	padding-bottom: 106px;
 }
-/*end section order*/
 
-/*start styles for footer*/
 #footer{
 	background: #f7f7f7;
 	width: 100%;
@@ -320,4 +320,3 @@ div[class|="line"] {
 	float: left;
 	margin: 0 0;
 }
-/*end styles for footer*/
