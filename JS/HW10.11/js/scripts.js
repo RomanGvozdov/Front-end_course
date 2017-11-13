@@ -1,8 +1,8 @@
 // Task1
-/*var t = prompt('Enter the string', 'abcEnglishdef');
+var t = prompt('Enter the string', 'abcEnglishdef');
 
 function checkSring(str){
-	return ~((str).toLowerCase().indexOf('english'));
+	return str.toLowerCase().indexOf('english') != -1;
 }
 
 console.log(checkSring(t));
@@ -13,7 +13,7 @@ var subStn = prompt('Enter the subString', 'English');
 	
 function checkString2(str, subStr){
 	
-	return ~((str).toLowerCase().indexOf(subStr.toLowerCase()));
+	return str.toLowerCase().indexOf(subStr.toLowerCase()) != -1;
 }
 console.log(checkString2(stn, subStn));
 
@@ -28,7 +28,7 @@ function generateRange (min, max, step) {
 	} else
 		console.log("error");
 	return result;
-}*/
+}
 
 
 //Task4
@@ -48,7 +48,9 @@ function cutIt (arr){
 	}
 	return arr;
 }
+console.log(cutIt(str1));
 console.log(cutIt(str2));
+console.log(cutIt(str3));
 			
 		
 	
