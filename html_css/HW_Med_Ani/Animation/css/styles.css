@@ -1,0 +1,123 @@
+/* Start Animation */
+.animation{
+	width: 100%;
+    padding-top: 500px;
+    padding-left: 500px;
+}
+.square{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+}
+.center{
+	background: yellow;
+}
+.rotate{
+	background: red;
+}
+.fr{
+	transform-origin: top left;
+	animation: rotate 4s infinite linear; 
+}
+.sc{
+	transform-origin: bottom left;
+	animation: rotates 4s infinite linear; 
+}
+.th{
+	transform-origin: top right;
+	animation: rotate 4s infinite linear; 
+}
+.fth{
+	transform-origin: bottom right;
+	animation: rotates 4s infinite linear; 
+}
+@keyframes rotate{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+@keyframes rotates{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(-360deg);
+	}
+}
+/* End animation */
+.button{
+	padding-bottom: 100px;
+}
+.butt1{
+	font-size: 17px;
+	color: #fff;
+	text-decoration: none;
+	padding: 27px 70px;
+	border-radius: 5px;
+	border: 5px solid black;
+	background: grey;
+}
+.ib{
+	display: inline-block;
+}
+/* Button 1 */
+.trans{
+	transition: all 2s ease-in-out 1s;
+}
+.trans:hover{
+	color: #000;
+	background: yellow;
+}
+/* End Button 1 */
+ /* Butt 2 */ 
+ .wid{
+ 	transition: all 4s ease-in-out 1s;
+ }
+ .wid:hover{
+ 	padding: 27px 35px;
+ }
+ /* End Butt 2 */
+
+/* Butt 3 */
+.opac{
+	opacity: 1;
+	transition: all 4s ease-in-out 1s;
+}
+.opac:hover{
+	opacity: .2;
+}
+/* End butt 3 */
+
+/* butt 4 */
+
+.rot{
+	transform: rotate(0deg);
+	transition: all 4s;
+}
+.rot:hover{
+	transform: rotate(360deg);
+}
+/* end butt 4 */
+
+/* Butt 5 */
+.scl{
+	transform: scale(1);
+	transition: all 4s;
+}
+.scl:hover{
+	transform: scale(5);
+}
+/*End butt 5 */
+
+/* Butt 6 */
+.dwn{
+	transform: translateY(0);
+	transition: all 4s;
+}
+.dwn:hover{
+	transform: translateY(30px);
+}
+/* End Butt 6 */
