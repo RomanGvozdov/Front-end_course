@@ -11,8 +11,20 @@
    "Red+Green+White+Black"
    */
   function join(array, separator) {
-
-	return array.join(separator);
+		var str= "";
+		var k = array.length;
+		if(!separator){
+			separator = ",";
+		}
+		for (var i = 0; i < k; i++)
+		{
+			if (i == (k - 1)){
+				str+=array[i];
+			} else {
+				str+=array[i] + separator;
+			}
+		}
+	return str;
   }
 
   /*
@@ -25,7 +37,10 @@
     for (var i = 0; i < n-1; i++)
      { for (var j = 0; j < n-1-i; j++)
         { if (array[j+1] < array[j])
-           { var t = array[j+1]; array[j+1] = array[j]; array[j] = t; }
+           { var t = array[j+1]; 
+			 array[j+1] = array[j];
+			 array[j] = t; 
+			 }
         }
      }                     
     return array; 
